@@ -9,7 +9,7 @@ import scala.util.logging.Logged
 class App extends unfiltered.filter.Plan {
 
   val apiURL = "http://api.groupon.com/v2/"
-  val clientId = "0320d6e0589d0d2928611f0576662b3dba73b5ed"
+  val clientId = "<your client id here>"
 
   def intent = {
 
