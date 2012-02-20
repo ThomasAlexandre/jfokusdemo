@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deals>
+  <deal>
+    <title>Helicopter Tour</title>
+    <disc>60</disc>
+    <city>Stockholm</city>
+  </deal>
+  <deal>
+    <title>Half Price on JFokus Conference</title>
+    <disc>50</disc>
+    <city>Stockholm</city>
+  </deal>
+  <deal>
+    <title>Dinner for two</title>
+    <disc>50</disc>
+    <city>Paris</city>
+  </deal>
+  <deal>
+    <title>10% OFF on Hotel Bedroom</title>
+    <disc>10</disc>
+    <city>Paris</city>
+  </deal>
+</deals>

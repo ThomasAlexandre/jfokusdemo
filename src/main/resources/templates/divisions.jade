@@ -1,0 +1,12 @@
+-@ import val cities: List[Tuple2[String,String]]
+!!! 5
+html
+  head
+    title Groupon
+  body
+    h1 Please indicate your home city
+    form(method="POST" action="/deals")
+      select(name="id")
+        - for((id,name) <- cities)
+          option(value=id) #{name}
+      input(type="submit" value="Get Deal of the Day at this location")

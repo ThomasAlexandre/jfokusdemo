@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deals>
+  <deal>
+    <title>Dinner for two</title>
+    <discount>50</discount>
+    <city>Paris</city>
+  </deal>
+  <deal>
+    <title>10% OFF on Hotel Bedroom</title>
+    <discount>10</discount>
+    <city>Paris</city>
+  </deal>
+</deals>

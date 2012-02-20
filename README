@@ -1,0 +1,39 @@
+Sample from JFokus 2012 Talk on One-liners.
+
+This sample exhibits a little map reduce algorithm by querying a very simple Coupon-like REST Service.
+Slides at http://www.jfokus.se/jfokus12/jf12_One-linersAreYourFriend-IncreasingScalabilityWithScala.pdf
+
+
+Server side:
+- Unfiltered toolkit for REST api
+
+Client side:
+- Dispatch REST client.
+
+Test:
+- Specs BDD style
+
+Build:
+- sbt version 0.11.2
+
+
+To Run the server:
+> sbt
+> update
+> run    (choose Local Server)
+
+This will start a small coupon service mockup on port 8086, accessible at http://localhost:8086/deals
+
+On another window:
+> sbt
+> console
+> ... run the code from  https://gist.github.com/1838722 or from the slides
+
+To run the tests:
+> sbt
+> test
+
+
+Also included:   Akka dataflow concurrency simple example, https://gist.github.com/1838711
+
+Technologies:  Unfiltered / Dispatch / Scalate / Akka

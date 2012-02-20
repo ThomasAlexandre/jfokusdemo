@@ -1,0 +1,18 @@
+<%@ val cities:List[Tuple2[String,String]] %>
+<html>
+  <head>
+    <title>Divisions</title>
+  </head>
+  <body>
+    <h3>Please indicate your home city</h3>
+
+    <form method="POST" action="/deals">
+      <select name="id"> 
+        #for (city <- cities)
+          <option value=${city._1}>${city._2}</option>
+        #end
+      </select>
+      <input type="submit" value="Get Deal of the Day at this location"/>
+    </form>
+  </body>
+</html>

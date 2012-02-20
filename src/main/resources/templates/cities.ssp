@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities>
+    <city>
+        <name>Honolulu</name>
+        <lat>21</lat>
+        <lng>-157</lng>
+    </city>
+    <city>
+        <name>New York City</name>
+        <lat>41</lat>
+        <lng>-74</lng>
+    </city>
+    <city>
+        <name>San Francisco</name>
+        <lat>38</lat>
+        <lng>-122</lng>
+    </city>
+    <city>
+        <name>Stockholm</name>
+        <lat>59</lat>
+        <lng>18</lng>
+    </city>
+</cities>
